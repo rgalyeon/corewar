@@ -6,7 +6,7 @@
 /*   By: rgalyeon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/11 19:26:06 by rgalyeon          #+#    #+#             */
-/*   Updated: 2019/05/19 22:36:23 by rgalyeon         ###   ########.fr       */
+/*   Updated: 2020/07/25 15:14:15 by rgalyeon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@ typedef struct	s_vec
 }				t_vec;
 
 t_vec			*ft_vec_init(size_t capacity);
+t_vec			*ft_int_vec_push(t_vec **vec, int c);
+t_vec			*ft_int_vec_init(size_t capacity);
 t_vec			*ft_vec_push(t_vec **vec, char c);
 t_vec			*ft_ptr_vec_init(size_t capacity);
 t_vec			*ft_ptr_vec_push(t_vec **vec, void *c);

@@ -6,7 +6,7 @@
 #    By: rgalyeon <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/10/29 12:08:49 by rgalyeon          #+#    #+#              #
-#    Updated: 2020/02/10 14:56:59 by rgalyeon         ###   ########.fr        #
+#    Updated: 2020/07/25 15:13:12 by rgalyeon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -136,7 +136,10 @@ VEC_FILES = ./srcs/struct/vector/ft_vec_init.c \
 			./srcs/struct/vector/ft_ptr_vec_push.c \
 			./srcs/struct/vector/vec_pro_init.c \
 			./srcs/struct/vector/vec_pro_push.c \
-			./srcs/struct/vector/ft_vec_string_push.c
+			./srcs/struct/vector/ft_vec_string_push.c \
+			./srcs/struct/vector/ft_int_vec_push.c \
+			./srcs/struct/vector/ft_int_vec_init.c
+
 
 HASHTABLE_FILES = ./srcs/struct/hashtable/ft_ht_create.c \
                   ./srcs/struct/hashtable/ft_ht_del.c \
