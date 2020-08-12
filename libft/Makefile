@@ -157,6 +157,7 @@ HASHTABLE_FILES = ./srcs/struct/hashtable/ft_ht_create.c \
 SORT_FILES = ./srcs/sort/ft_swap.c \
              ./srcs/sort/ft_swaps.c \
              ./srcs/sort/quick_sort_by_name.c \
+             ./srcs/sort/ft_insertion_sort.c
 
 DEVELOPMENT_UTILS = ./srcs/develop_utils/do_nothing.c \
 

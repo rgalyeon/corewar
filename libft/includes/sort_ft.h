@@ -16,5 +16,6 @@
 void	ft_swap(void *a, void *b);
 void	ft_swaps(void *a, void *b, size_t size);
 void	quick_sort_by_name(char **data, int len, short int r);
+void 	ft_insertion_sort(int *data, unsigned int length);
 
 #endif

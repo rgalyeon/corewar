@@ -6,7 +6,7 @@
 /*   By: rgalyeon <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/29 16:01:43 by rgalyeon          #+#    #+#             */
-/*   Updated: 2020/07/30 17:17:12 by rgalyeon         ###   ########.fr       */
+/*   Updated: 2020/07/30 17:19:22 by rgalyeon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ typedef struct	s_area
 	char		*map;
 	t_player	players[MAX_PLAYERS];
 	t_vec 		**cycle_arr;
+	t_vec		*carriages;
 
 	int			cycle_to_die_delta;
 	int			cycle_to_die;
@@ -84,6 +85,7 @@ typedef struct	s_area
 
 	uint		n_players;
 	uint		n_processes;
+	uint 		curr_index;
 
 	uint		next_process_index;
 
